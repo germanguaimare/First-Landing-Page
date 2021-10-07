@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>}
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2a4a339b9f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <div id="logo">
+                <i class="fab fa-playstation" id="pslogo"></i>
+                <h1>Playstation</h1>
+            </div>
+            <div id="rrss">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-instagram-square"></i>
+                <i class="fab fa-youtube-square"></i>
+            </div>
+        </div>
+        <div id="title">
+            <h1>Reserva tu Playstation 5</h1>
+            <h3 id="fill-form" style="margin: 0;">Llena este formulario y te notificaremos la disponibilidad de stock
+            </h3>
+        </div>
+
+        <div id="landing-center">
+            <div id="landing-image">
+                <img src="https://image.api.playstation.com/vulcan/ap/rnd/202102/2307/kQzDCY5RCrSXCeeFjPGUzkGI.png">
+            </div>
+            <div id="landing-form">
+                <div id="landing-right">
+                    <div id="write-your-info">
+                        <h3>Coloca acá tu información de contacto</h3>
+                    </div>
+                    <div id="form-space">
+                        <form id="form">
+                            <div id="labels">
+                                <label for="first-name">Nombre</label>
+                                <label for="last-name">Apellido</label>
+                                <label for="birth-date">Fecha de Nacimiento</label>
+                                <label for="phone-number">Celular</label>
+                                <label for="email">Email</label>
+                                <label for="country">País de residencia</label>
+                            </div>
+                            <div id="inputs">
+                                <input type="text" id="first-name">
+                                <input type="text" id="last-name">
+                                <input type="date" id=birth-date">
+                                <input type="number" id="phone-number">
+                                <input type="email" id="email">
+                                <input list="countries" id="country">
+                                <datalist id="countries">
+                                    <option value="Chrome">
+                                    <option value="Chile">
+                                    <option value="Venezuela">
+                                    <option value="Estados Unidos">
+                                    <option value="España">
+                                    <option value="Canadá">
+                                </datalist>
+                                <input type="button" id="submit-button" value="Enviar">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div id="after-form">
+                        <h3>Con tu información participas en el sorteo de una copia física de Kena: Bridge of Spirits
+                        </h3>
+                    <div id="review-section">
+                        <p>Mira lo que los medios especializados están diciendo sobre Kena: Bridge of Spirits</p>
+                        <p><strong><i class="fas fa-dice"></i> Medio 1: </strong> Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit. Proin aliquam rutrum ligula sed suscipit. Mauris accumsan
+                            bibendum quam, vel euismod.</p>
+                        <p><strong><i class="fas fa-ghost"></i> Medio 2: </strong>Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit. Proin aliquam rutrum ligula sed suscipit. Mauris accumsan
+                            bibendum quam, vel euismod.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="after-landing">
+            <div id="kena-features">
+                <div id="kena-features-title">
+                    <h3>Kena: Bridge of Spirits cuenta con estas tecnologías</h3>
+                </div>
+                <div id="kena-features-images">
+                    <img src="https://cdn.mos.cms.futurecdn.net/32gsqQYasVWn6VZtM7r3zC-1200-80.jpg">
+                    <img
+                        src="https://www.gamerevolution.com/assets/uploads/2020/12/PS5-haptic-feedback-not-working-2-640x360.jpg">
+                    <img src="https://i.ytimg.com/vi/fvFgElmoixQ/maxresdefault.jpg">
+                </div>
+                <div id="kena-features-text">
+                    <p>Haptic Feedback: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec ante ac est
+                        tristique varius. In rhoncus nisl ante, vulputate pharetra metus aliquet id. Pellentesque.</p>
+                    <p>Adaptive Triggers: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec ante ac
+                        est tristique varius. In rhoncus nisl ante, vulputate pharetra metus aliquet id. Pellentesque.
+                    </p>
+                    <p>Mic and Speaker: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec ante ac est
+                        tristique varius. In rhoncus nisl ante, vulputate pharetra metus aliquet id. Pellentesque.</p>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <p>All items are trademarked by Sony Enterprises</p>
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,274 @@
+body {
+    background-color: black;
+    align-content: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+#container {
+    margin: auto;
+    display: flex;
+    flex-flow:column;
+    max-width: 95%;
+}
+
+#header {
+    display: flex;
+    height: 8%;
+    width: 100%;
+    justify-content: space-between; 
+    background-color: #006FCD;
+    margin-bottom: 5px;
+    border-radius: 5px;
+
+ 
+}
+
+#logo, #rrss {
+    color: white;
+    display: flex;
+   flex-basis: 30%;
+}
+
+#logo {
+    align-items: center;
+}
+
+#pslogo {
+    justify-content:center;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+#rrss {
+    display: flex;
+    font-size: 25px;
+    text-align: right;
+    align-items: center;
+    justify-content:right;
+    padding-right: 10px;
+}
+
+#rrss i {
+    padding-left: 6px;
+}
+
+#title {
+    border: 1px solid blue;
+    background-color: #006FCD;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+#subtitle {
+    display: flex;
+    height: 5%;
+    align-items: center;
+    justify-content: center;
+    height: 8%;
+    background-color: #006FCD;
+}
+
+#incentive {
+    text-align: center;
+    background-color: #006FCD;
+
+}
+
+#landing-center {
+    display: flex;
+    height: 55%;
+    background-color:black;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#landing-center {
+    display: flex;
+    height: 55%;
+    background-color:black;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+
+#landing-right {
+    border: 1px solid blue;
+    background-color:#006FCD;
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+
+}
+
+#landing-image {
+    flex-basis: 50%;
+    margin-right: 5px;
+}
+
+#landing-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    
+}
+
+#write-your-info {
+    background-color: #006FCD;
+}
+
+#landing-form {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 50%;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#form-space {
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #006FCD;
+    margin-bottom: 5px;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#labels {
+
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    font-size:14px;
+}
+
+#inputs {
+
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60%;
+}
+
+label {
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+    font-size: larger;
+}
+
+input {
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    max-width: 70%;
+}
+
+input[type=button] {
+    position: relative;
+    right: -50px;
+    color: white;
+    max-width: 40%;
+    justify-content: center;
+    background-color:#00008B;
+}
+
+#after-form {
+    height:max-content;
+    display: flex;
+    flex-direction: column;
+    background-color: #006FCD;
+    border-radius: 5px;
+    
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#review-section {
+    width: 90%;
+    height:max-content;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #006FCD;
+    text-align:justify;
+    padding-left: 25px;
+
+
+}
+
+#after-landing {
+    height:10%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    background-color: #006FCD;
+    border-radius: 5px;
+}
+
+#kena-features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#kena-features-images {
+    display: flex;
+    justify-content: center;
+}
+
+#kena-features-images img{
+    width: 25%;
+    height: auto;
+    margin:auto;
+    border-radius: 5px;
+
+}
+
+#kena-features-text {
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+#kena-features-text p {
+    width: 25%;
+    height: auto;
+    margin:auto;
+    padding-top: 20px;
+    color: white;
+    text-align:justify;
+}
+
+#footer {
+    color: white;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+
+#footer p{
+  margin-top: 40px;
+}
